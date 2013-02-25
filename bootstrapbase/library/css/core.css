@@ -1,0 +1,849 @@
+/**
+ * WORDPRESS CORE STYLES
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+ 
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+
+/**
+ * BOOTSTRAP BASE STYLES
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+
+
+.widgetarea {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widgetarea ul {
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+.widgetarea ul li {
+    list-style: disc;
+}
+
+#footerrightsidebar {
+    text-align: right;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.clear-right {
+	clear: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.triangle-left {
+	width: 0; 
+	height: 0; 
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent; 
+	border-right:10px solid #eee; 
+}
+
+.content-wrap {
+	position: relative;
+}
+
+.notopmargin {
+	margin-top: 0;
+}
+
+.pull-left.archive-post-thumbnail {
+	margin-right: 10px;
+}
+
+.pull-right.archive-post-thumbnail {
+	margin-left: 10px;
+}
+
+
+/**
+ * TYPOGRAPHY STYLES
+ * ================================================================
+ *
+ *
+ * @since 1.0
+ */
+
+.archive-item-title {
+	margin-bottom: 0;
+}
+
+.meta {
+	margin-bottom: 10px;
+}
+
+
+
+/**
+ * GRAVITY FORM STYLES
+ * ================================================================
+ *
+ *
+ * @since 1.0
+ */
+
+.widgetarea .gform_fields,
+.widgetarea .gform_fields li,
+.gform_fields,
+.gfield_checkbox {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.gfield_required {
+    color: #cc0000;
+}
+
+.ginput_complex .ginput_left,
+.ginput_complex .ginput_right {
+    width: 50%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.ginput_complex:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.ginput_complex .ginput_left label,
+.ginput_complex .ginput_right label,
+.gfield_description {
+    font-size: 11px;
+    color: #999;
+}
+
+.ginput_complex .ginput_left input,
+.ginput_complex .ginput_right input,
+.ginput_container input[type="tel"],
+.ginput_container input[type="text"] {
+    margin-bottom: 0;
+    width: 93%;
+
+}
+
+.gfield {
+    margin-bottom: 10px;
+}
+
+.gfield textarea {
+    width: 98%;
+}
+
+.gfield_checkbox input,
+.gfield_checkbox label {
+    display: inline-block;
+}
+
+.gfield_checkbox input {
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.gfield_checkbox {
+    margin-left: 0!important;
+}
+
+.gform_wrapper .validation_error {
+    border: 1px solid #ff3333;
+    background: #ffcccc;
+    color: #ff3333;
+    padding: 5px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 10px 0;
+    text-shadow: 1px 1px 1px #999;
+}
+
+.gform_wrapper .gfield_description.validation_message {
+    color: #ff3333;
+}
+
+.ui-datepicker-div,
+.ui-datepicker-inline,
+#ui-datepicker-div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 1em;
+	list-style: none;
+	font-family: "lucida sans", "lucida grande", lucida , sans-serif;
+	background-color: #FFF;
+	font-size: 1em;
+	border: 4px solid #C1C1C1;
+	width: 15.5em;
+	padding: 2.5em .5em .5em .5em;
+	position: relative
+}
+.ui-datepicker-div,
+#ui-datepicker-div {
+	z-index: 9999;
+	display: none
+}
+.ui-datepicker-inline {
+	float: left;
+	display: block
+}
+.ui-datepicker-control {
+	display: none
+}
+.ui-datepicker-current {
+	display: none
+}
+.ui-datepicker-next,
+.ui-datepicker-prev {
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	background-color: #EEE
+}
+.ui-datepicker-next {
+	left: 14.6em
+}
+.ui-datepicker-next: hover,
+.ui-datepicker-prev: hover {
+	background-color: #DADADA
+}
+.ui-datepicker-next a,
+.ui-datepicker-prev a {
+	text-indent: -999999px;
+	width: 1.3em;
+	height: 1.4em;
+	display: block;
+	font-size: 1em;
+	background-image: url(../img/datepicker_arrow_left.gif);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	border: 1px solid #d3d3d3;
+	cursor: pointer
+}
+.ui-datepicker-next a {
+	background-image: url(../img/datepicker_arrow_right.gif);
+	background-position: 50% 50%;
+	background-repeat: no-repeat
+}
+.ui-datepicker-header select {
+	border: 1px solid #D3D3D3;
+	color: #555;
+	background-color: #E6E6E6;
+	font-size: 1em;
+	line-height: 1.4em;
+	position: absolute;
+	top: 0.5em;
+	margin: 0 !important
+}
+.ui-datepicker-header option: focus,
+.ui-datepicker-header option: hover {
+	background-color: #DADADA
+}
+.ui-datepicker-header select.ui-datepicker-new-month {
+	width: 7em;
+	left: 2.2em
+}
+.ui-datepicker-header select.ui-datepicker-new-year {
+	width: 5em;
+	left: 9.4em
+}
+table.ui-datepicker {
+	width: 15.5em;
+	text-align: right
+}
+table.ui-datepicker td a {
+	padding: .1em;
+	display: block;
+	color: #555;
+	background-color: #E6E6E6;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	text-align: center
+}
+table.ui-datepicker td a: hover {
+	border: 1px solid #FFF;
+	color: #212121;
+	background-color: #DADADA;
+	text-decoration: none
+}
+table.ui-datepicker td a: active {
+	border: 1px solid #AAA;
+	color: #212121;
+	background-color: #FFF;
+	text-decoration: none
+}
+table.ui-datepicker .ui-datepicker-title-row td {
+	padding: .2em 0;
+	text-align: center;
+	font-size: 0.9em;
+	color: #222;
+	text-transform: uppercase
+}
+table.ui-datepicker .ui-datepicker-title-row td a {
+	color: #222;
+	padding: 0.3em 0
+}
+.ui-datepicker-cover {
+	display: none;
+	display: block;
+	position: absolute;
+	z-index: -1;
+	filter: mask();
+	top: -4px;
+	left: -4px;
+	width: 193px;
+	height: 200px
+}
+img.ui-datepicker-trigger {
+	cursor: pointer;
+	vertical-align: top;
+	width: 17px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+.gform_wrapper input.datepicker.datepicker_with_icon {
+	margin-right: 4px !important;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+
+
+
+/**
+ * MENU STYLES
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+
+.navbar , .navbar-inner , .navbar-inner .container {
+    position: relative;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.navbar .nav {
+    margin-right: 0;
+}
+
+.navbar .navbar-inner li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar .navbar-inner li:first-child {
+    margin-left: 0;
+}
+
+.navbar .navbar-inner li:last-child {
+    margin-right: 0;
+}
+
+.logo-center .menu-left-primary-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logo-center .menu-right-primary-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.logo-center .logo,
+.tablet-header .logo {
+    text-align: center;
+    display: block;
+}
+
+.logo-center .logo .brand {
+    float: none;
+    display: inline;
+}
+
+.logo-center .navbar-inner,
+.logo-left .navbar-inner,
+.logo-right .navbar-inner {
+    background: none;
+	filter: none;
+    border: 0;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+	padding: 0;
+}
+
+.logo-center .menu-left-primary-container ul li:first-child {
+    margin-left: 0;
+}
+
+.logo-center .menu-right-primary-container ul li:last-child {
+    margin-right: 0;
+}
+
+.menu-mobile-menu-container {
+    margin-top: 10px;
+}
+
+.mobile-header {
+    text-align: center;
+    z-index: 999;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > li > a,
+.navbar .nav a:hover,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+	background: transparent;
+}
+
+.navbar .navbar-inner li .dropdown-menu li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	filter: none;
+}
+
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+	background: transparent;
+	background-color: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	filter: none;
+}
+
+.tablet-header .navbar-inner {
+    padding-bottom: 10px;
+}
+
+
+
+/**
+ * COMMENTS STYLES
+ * ==========================================================
+ *
+ *
+ * @since 1.0
+ */
+
+#comments {
+	border-top: 1px solid #ddd;
+}
+
+.commentlist {
+    border-bottom: 1px solid #ddd;
+}
+
+.commentlist, .commentlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.comment-author.vcard {
+    float: left;
+}
+
+.comment {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.comment .triangle-left {
+    position: absolute;
+    top: 17px;
+    left: 60px;
+}
+
+.comment img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.comment .comment-wrap {
+    margin-left: 70px;
+    background: #eee;
+    padding: 10px;
+}
+
+.comment-meta.commentmetadata {
+    margin-bottom: 10px;
+}
+
+.comment .children {
+    margin-left: 70px
+}
+
+.comment-form-left {
+    width: 44%;
+    float: left;
+}
+
+#commentform label {
+    display: inline;
+}
+
+.comment-form-comment textarea {
+    width: 100%;
+}
+.comment-form-left input {
+    width: 98%;
+}
+
+.comment-form-comment {
+    width: 50%;
+    float: right;
+}
+
+.logged-in .comment-form-comment {
+    float: none;
+    width: 97%;
+}
+
+.form-allowed-tags {
+    clear: both;
+}
+
+
+
+/**
+ * VIDEO SHORTCODES
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+
+.youtubevideoitem {
+	position: relative;
+	padding-bottom: 63%;
+	padding-top: 0;
+	height: 0;
+	overflow: hidden;
+	width: 99%;
+	margin-bottom: 40px;
+	border: 3px solid;
+	background: url('../img/loaders/video.gif') center center no-repeat #000;
+}
+
+.youtubevideoitem iframe,
+.youtubevideoitem object,
+.youtubevideoitem embed  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    
+}
+
+
+
+/**
+ * SOCIAL ICONS SHORTCODES
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+ 
+.socialicons {
+    display: block;
+    text-align: right;
+}
+
+.socialicon {
+    margin: 0 5px;
+}
+
+.socialicon:first-child {
+    margin-left: 0;
+}
+
+.socialicon:last-child {
+    margin-right: 0;
+}
+
+
+
+/**
+ * POSTITEM SHORTCODE
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+
+.postitem img,
+.blog .entry-content img,
+.search .entry-content img,
+.archive .entry-content img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    padding: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/**
+ * FOOTER
+ * ===========================================================
+ *
+ *
+ * @since 1.0
+ */
+
+#morefooter {
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+#endfooter {
+    padding-top: 18px;
+	padding-bottom: 5px;
+}
+
+
+
+/**
+ * LARGE DESKTOP
+ * ==============================================================
+ */
+ 
+@media (min-width: 1200px) {
+	.navbar .container {
+		width: 1170px;
+	}
+
+}
+
+
+
+/**
+ * NORMAL DESKTOP
+ * ==============================================================
+ */
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	.navbar .container {
+		width: 940px;
+	}
+
+}
+
+
+
+/**
+ * PORTRAIT TABLET TO LANDSCAPE TABLET AND DESKTOP
+ * ==============================================================
+ */
+ 
+@media (min-width: 768px) and (max-width: 979px) {
+	.logo-center .menu-left-primary-container,
+    .logo-center .menu-right-primary-container {
+        position: relative;
+    }
+	
+	.menu-tablet-container {
+		margin: 0 auto;
+	}
+	.socialicons {
+        display: block;
+        text-align: center;
+
+    }
+    
+}
+
+
+
+/**
+ * LANDSCAPE PHONE TO PORTRAIT TABLET
+ * ==============================================================
+ */
+
+@media (max-width: 767px) {
+	
+	body {
+		padding: 0;
+	}
+	
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+    #footerrightsidebar {
+        text-align: center!important;
+    }
+    
+    #footerleftsidebar {
+        text-align: center!important;
+    }
+    
+    .socialicons {
+        display: block;
+        text-align: center;
+
+    }
+
+
+}
+ 
+
+ 
+/**
+ * LANDSCAPE PHONES AND DOWN
+ * ==============================================================
+ */
+
+@media (max-width: 480px) {
+    .socialicons {
+        display: block;
+        text-align: center;
+
+    }
+
+}

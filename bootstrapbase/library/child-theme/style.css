@@ -1,0 +1,104 @@
+/**
+ * Theme Name: Bootstrap Child Theme 
+ * Theme URI: http://chriscarvache.com/
+ * Description: Skeleton Child Theme CSS
+ * Author: chriscarvache
+ * Author URI: http://chriscarvache.com/
+ * Version: 1.0
+ * Tags: Shut up Meg...
+ * Template: bootstrapbase
+ * License: PRIVATE PROPERTY
+ */
+
+/**
+ * GLOBAL
+ * ==============================================================
+ */
+
+
+
+/**
+ * HEADER (HOMEPAGE)
+ * ==============================================================
+ */
+
+
+
+
+/**
+ * MENU
+ * ==============================================================
+ */
+
+
+
+
+/**
+ * SOCIAL BAR
+ * ==============================================================
+ */
+
+
+
+
+
+/**
+ * FOOTER
+ * ==============================================================
+ */
+
+
+
+
+/**
+ * LARGE DESKTOP
+ * ==============================================================
+ */
+ 
+@media (min-width: 1200px) {
+
+}
+
+
+
+/**
+ * NORMAL DESKTOP
+ * ==============================================================
+ */
+
+@media (min-width: 980px) and (max-width: 1199px) {
+
+}
+
+
+
+/**
+ * PORTRAIT TABLET TO LANDSCAPE TABLET AND DESKTOP
+ * ==============================================================
+ */
+ 
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+
+
+/**
+ * LANDSCAPE PHONE TO PORTRAIT TABLET
+ * ==============================================================
+ */
+
+@media (max-width: 767px) {
+
+}
+ 
+
+ 
+/**
+ * LANDSCAPE PHONES AND DOWN
+ * ==============================================================
+ */
+
+@media (max-width: 480px) {
+
+}
